@@ -1,0 +1,94 @@
+{
+  "name": "al-developer-pack",
+  "displayName": "AL Developer Pack",
+  "description": "Essentials pack for AL Development (Microsoft Dynamics 365 Business Central)",
+  "publisher": "JorisPoppe",
+  "author": {
+    "name": "Joris Poppe"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "keywords": [
+    "AL",
+    "BusinessCentral",
+    "Business Central",
+    "MSDyn365BC"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Extension Packs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorispoppe/ALDeveloperPack"
+  },
+  "bugs": {
+    "url": "https://github.com/jorispoppe/ALDeveloperPack/issues"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "al-developer-pack.setConfiguration",
+        "title": "AL Pack: Update the AL Developer Pack default configuration."
+      }
+    ]
+  },
+  "extensionPack": [
+    "ms-dynamics-smb.al",
+    "davidfeldhoff.al-codeactions",
+    "wbrakowski.al-navigator",
+    "martonsagi.al-object-designer",
+    "vjeko.vjeko-al-objid",
+    "jamespearson.al-test-runner",
+    "BartPermentier.al-toolbox",
+    "rasmus.al-var-helper",
+    "365businessdevelopment.bdev-al-xml-doc",
+    "andrzejzwierzchowski.al-code-outline",
+    "StefanMaron.businesscentral-lintercop",
+    "nabsolutions.nab-al-tools",
+    "waldo.crs-al-language-extension",
+    "rvanbekkum.xliff-sync",
+    "nwallace.createGUID",
+    "ms-azuretools.vscode-docker",
+    "donjayamanne.githistory",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "ms-vscode.PowerShell",
+    "humao.rest-client",
+    "Gruntfuggly.todo-tree",
+    "vscode-icons-team.vscode-icons"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.71.0",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4",
+    "@vscode/test-electron": "^2.1.5"
+  }
+}
