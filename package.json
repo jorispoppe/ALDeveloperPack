@@ -4,8 +4,10 @@
   "description": "Essentials pack for AL Development (Microsoft Dynamics 365 Business Central)",
   "publisher": "JorisPoppe",
   "author": {
-    "name": "Joris Poppe"
+    "name": "Joris Poppe",
+    "url": "https://github.com/jorispoppe"
   },
+  "homepage": "https://github.com/jorispoppe",
   "license": "MIT",
   "version": "0.0.1",
   "icon": "images/icon.png",
