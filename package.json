@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/jorispoppe",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#1e1e1e",
@@ -74,7 +74,8 @@
     "ms-vscode.PowerShell",
     "humao.rest-client",
     "Gruntfuggly.todo-tree",
-    "vscode-icons-team.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "streetsidesoftware.code-spell-checker"
   ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
