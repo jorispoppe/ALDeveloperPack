@@ -2,6 +2,13 @@
 
 All notable changes to the "al-developer-pack" extension will be documented in this file.
 
+## [1.0.3] - 2024-10-15
+
+- Added **GitHub Actions** (github.vscode-github-actions)
+- Added **GitHub Pull Requests** (github.vscode-pull-request-github)
+- Added **NP Retail workflow language support** (navipartner.np-retail-workflow-language-support)
+- Removed **AL XML Documentation** (365businessdevelopment.bdev-al-xml-doc")
+
 ## [1.0.2] - 2023-02-18
 
 - Added **Code Spell Checker** (streetsidesoftware.code-spell-checker)
