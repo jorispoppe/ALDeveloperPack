@@ -2,6 +2,14 @@
 
 All notable changes to the "al-developer-pack" extension will be documented in this file.
 
+## [1.0.4] - 2025-02-03
+
+- Added **Performance Toolkit** (ms-dynamics-smb.bcpt)
+- Added **Double Line Numbers** (slhsxcmy.vscode-double-line-numbers)
+- Added **Github Copilot** (github.copilot)
+- Added **Github Copilot Chat** (github.copilot-chat)
+- Removed **NAB AL Tools** ("nabsolutions.nab-al-tools")
+
 ## [1.0.3] - 2024-10-15
 
 - Added **GitHub Actions** (github.vscode-github-actions)
