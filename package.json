@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/jorispoppe",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#1e1e1e",
@@ -49,6 +49,7 @@
   },
   "extensionPack": [
     "ms-dynamics-smb.al",
+    "365businessdevelopment.365businessdev-alget",
     "davidfeldhoff.al-codeactions",
     "wbrakowski.al-navigator",
     "martonsagi.al-object-designer",

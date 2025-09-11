@@ -2,6 +2,10 @@
 
 All notable changes to the "al-developer-pack" extension will be documented in this file.
 
+## [1.0.5] - 2025-09-11
+
+- Added **AL Get** (365businessdevelopment.365businessdev-alget)
+
 ## [1.0.4] - 2025-02-03
 
 - Added **Performance Toolkit** (ms-dynamics-smb.bcpt)
