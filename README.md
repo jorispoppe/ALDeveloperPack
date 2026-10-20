@@ -1,5 +1,8 @@
 # AL Developer Pack
 
+[![VS Marketplace](https://img.shields.io/badge/VS_Marketplace-AL_Developer_Pack-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=JorisPoppe.al-developer-pack)
+[![Visual Studio Marketplace Version (short)](https://vsmarketplacebadges.dev/version-short/JorisPoppe.al-developer-pack.svg)](https://marketplace.visualstudio.com/items?itemName=JorisPoppe.al-developer-pack)
+
 ## AL Language
 
 - [AL Language](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al)
