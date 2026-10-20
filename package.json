@@ -9,14 +9,14 @@
   },
   "homepage": "https://github.com/jorispoppe",
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#1e1e1e",
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.142.0"
   },
   "keywords": [
     "AL",
@@ -49,23 +49,24 @@
   },
   "extensionPack": [
     "ms-dynamics-smb.al",
-    "365businessdevelopment.365businessdev-alget",
     "davidfeldhoff.al-codeactions",
+    "Arthurvdv.alcops",
     "wbrakowski.al-navigator",
-    "martonsagi.al-object-designer",
     "vjeko.vjeko-al-objid",
+    "teddyherryanto.al-pocket-tools",
     "jamespearson.al-test-runner",
     "BartPermentier.al-toolbox",
     "rasmus.al-var-helper",
     "andrzejzwierzchowski.al-code-outline",
-    "StefanMaron.businesscentral-lintercop",
     "navipartner.np-retail-workflow-language-support",
     "ms-dynamics-smb.bcpt",
     "waldo.crs-al-language-extension",
     "rvanbekkum.xliff-sync",
-    "nwallace.createGUID",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-dutch",
+    "streetsidesoftware.code-spell-checker-french",
     "ms-azuretools.vscode-docker",
-    "bierner.docs-view",
     "slhsxcmy.vscode-double-line-numbers",
     "usernamehw.errorlens",
     "donjayamanne.githistory",
@@ -73,15 +74,13 @@
     "github.copilot",
     "github.copilot-chat",
     "github.vscode-pull-request-github",
-    "codezombiech.gitignore",
     "eamodio.gitlens",
+    "heaths.vscode-guid",
     "yzhang.markdown-all-in-one",
     "DavidAnson.vscode-markdownlint",
     "ms-vscode.PowerShell",
     "humao.rest-client",
-    "Gruntfuggly.todo-tree",
-    "vscode-icons-team.vscode-icons",
-    "streetsidesoftware.code-spell-checker"
+    "vscode-icons-team.vscode-icons"
   ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -91,16 +90,15 @@
     "lint": "eslint src --ext ts"
   },
   "devDependencies": {
-    "@types/vscode": "^1.71.0",
-    "@types/glob": "^7.2.0",
     "@types/mocha": "^9.1.1",
     "@types/node": "16.x",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
+    "@types/vscode": "^1.71.0",
+    "@typescript-eslint/eslint-plugin": "^8.72.0",
+    "@typescript-eslint/parser": "^8.72.0",
+    "@vscode/test-electron": "^2.1.5",
     "eslint": "^8.20.0",
     "glob": "^8.0.3",
-    "mocha": "^10.0.0",
-    "typescript": "^4.7.4",
-    "@vscode/test-electron": "^2.1.5"
+    "mocha": "^12.0.3",
+    "typescript": "^4.7.4"
   }
 }
