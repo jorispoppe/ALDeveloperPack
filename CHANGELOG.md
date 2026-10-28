@@ -2,6 +2,11 @@
 
 All notable changes to the "al-developer-pack" extension will be documented in this file.
 
+## [1.0.7] - 2026-10-28
+
+- VSCode Version
+- Removed **Github Copilot** (github.copilot)
+
 ## [1.0.6] - 2026-10-20
 
 - Added **ALCops** (Arthurvdv.alcops)

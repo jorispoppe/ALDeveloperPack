@@ -33,7 +33,6 @@
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions)
-- [Github Copilot](https://marketplace.visualstudio.com/items?itemName=github.copilot)
 - [Github Copilot Chat](https://marketplace.visualstudio.com/items?itemName=github.copilot-chat)
 - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github)
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
